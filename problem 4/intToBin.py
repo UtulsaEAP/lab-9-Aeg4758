@@ -13,7 +13,7 @@ def int_to_reverse_binary(num1):
 def string_reverse(input_string): 
     reverse_input = ''
     
-    if input_string == 0:
+    if input_string == '':
         reverse_input = 0
     else: 
         reverse_input = input_string[::-1]
